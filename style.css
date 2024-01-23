@@ -1,0 +1,34 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#gallery{
+    width: 80%;
+    margin: auto;
+}
+
+.imageBox{
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.selected{
+    border-color: red;
+}
+
+.imageBox{
+    margin: 10px;
+    border: 5px solid rgb(250, 0, 0);
+    cursor: pointer;
+}
